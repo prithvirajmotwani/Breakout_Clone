@@ -1,0 +1,20 @@
+
+.middle-body {
+    display : grid;
+    grid-template: auto / 1fr 1fr 1fr;
+    margin-top: 10px;
+    position: relative;
+    
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.search-icon{
+    position: absolute;
+    top:10px;
+    right: 10px;
+}

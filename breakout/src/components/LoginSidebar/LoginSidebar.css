@@ -1,0 +1,105 @@
+
+* {
+    box-sizing: border-box;
+}
+.login-sidebar {
+    position: fixed;
+    top: 0;
+    right: -400px; /* Initially hidden off-screen */
+    width: 400px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+    padding: 20px;
+    overflow-y: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+.login-sidebar.open {
+    right: 0; /* Slide into view */
+}
+
+.close-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.login-content {
+    padding-top: 60px;
+}
+
+.sidebar-content h5 {
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 10px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+.form-group label span {
+    color: red;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #000;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.create-account-button {
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    color: #000;
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+

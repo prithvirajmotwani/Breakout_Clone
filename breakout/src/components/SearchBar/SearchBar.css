@@ -1,0 +1,33 @@
+.search-bar {
+    display: flex;
+    border: 1px solid black;
+    width: 300px; 
+  }
+  
+  .search-bar input {
+    flex-grow: 1;
+    border: none;
+    padding: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  
+  .search-bar input:focus {
+    outline: none;
+  }
+  
+  .search-bar button {
+    background-color: black;
+    border: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-bar button img {
+    width: 16px; 
+    height: 16px; 
+  }
+  
